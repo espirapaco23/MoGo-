@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <title>Mogo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo" data-scroll="#intro">MoGo</div>
+
+          <nav class="nav" id="nav">
+            <a class="nav__link" href="#" data-scroll="#about">About</a>
+            <a class="nav__link" href="#" data-scroll="#service">Service</a>
+            <a class="nav__link" href="#" data-scroll="#blog">Blog</a>
+            <a class="nav__link" href="#" data-scroll="#work">Work</a>
+            <a class="nav__link" href="#" data-scroll="#contact">Contact</a>
+            <a class="nav__link" href="#"><i class="bx bx-cart"></i></a>
+            <a class="nav__link" href="#"><i class="bx bx-search"></i></a>
+          </nav>
+        </div>
+
+        <button type="button" class="nav-toggle" id="nav_toggle">
+          <span class="nav-toggle__item"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="intro" id="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <h2 class="intro__suptitle">Creative Template</h2>
+            <h1 class="intro__title">WELCOME TO MOGO</h1>
+            <a class="btn" href="#">Learn More</a>
+          </div>
+        </div>
+
+        <div class="slider">
+          <div class="container">
+            <div class="slider__inner">
+              <div class="slider__item active">
+                <span>01</span> <span class="slider__text">Intro</span>
+              </div>
+              <div class="slider__item">
+                <span>02</span> <span class="slider__text">Work</span>
+              </div>
+              <div class="slider__item">
+                <span>03</span> <span class="slider__text">About</span>
+              </div>
+              <div class="slider__item">
+                <span>04</span> <span class="slider__text">Contacts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">What we do</h3>
+            <h2 class="section__title">Story about us</h2>
+            <div>
+              <p class="section__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur repellendus eum soluta quam veritatis nisi fugit
+                voluptatibus, vitae inventore veniam tenetur aspernatur adipisci
+                provident nulla similique mollitia eligendi autem iste vel
+                obcaecati repudiandae consectetur sit quis? Modi suscipit
+                perferendis nesciunt?
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="abo1.jpg" alt="" />
+                </div>
+                <div class="card__text">super team</div>
+              </div>
+            </div>
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="abo2.jpg" alt="" />
+                </div>
+                <div class="card__text">super team</div>
+              </div>
+            </div>
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="abo3.jpg" alt="" />
+                </div>
+                <div class="card__text">super team</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="statistics">
+        <div class="container">
+          <div class="stat">
+            <div class="stat__item">
+              <div class="stat__count">42</div>
+              <div class="stat__text">Web Design Projects</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">123</div>
+              <div class="stat__text">Happy Client</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">15</div>
+              <div class="stat__text">Award Winners</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">99</div>
+              <div class="stat__text">cup of coffee</div>
+            </div>
+            <div class="stat__item">
+              <div class="stat__count">24</div>
+              <div class="stat__text">members</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="service">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">We work with</h3>
+            <h2 class="section__title">Amazing services</h2>
+          </div>
+          <div class="services">
+            <div class="services__item services__item--border">
+              <img class="services__icon" src="photography.png" alt="" />
+              <div class="services__title">Photography</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="services__item services__item--border">
+              <img class="services__icon" src="webdesign.png" alt="" />
+              <div class="services__title">web design</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="services__item services__item--border">
+              <img class="services__icon" src="creativity.png" alt="" />
+              <div class="services__title">creativity</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="services__item">
+              <img class="services__icon" src="seo.png" alt="" />
+              <div class="services__title">seo</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="services__item">
+              <img class="services__icon" src="css-html.png" alt="" />
+              <div class="services__title">css-html</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+
+            <div class="services__item">
+              <img class="services__icon" src="digital.png" alt="" />
+              <div class="services__title">digital</div>
+              <div class="services__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--devices">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">For all devices</h3>
+            <h2 class="section__title">unique design</h2>
+          </div>
+
+          <div class="devices">
+            <img class="devices__item" src="ipad.png" alt="" />
+            <img
+              src="iphone.png"
+              alt=""
+              class="devices__item devices__item--iphone"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">Service</h3>
+            <h2 class="section__title">What we do</h2>
+            <div>
+              <p class="section__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur repellendus eum soluta quam veritatis nisi fugit
+                voluptatibus, vitae inventore veniam tenetur aspernatur adipisci
+                provident nulla similique mollitia eligendi autem iste vel
+                obcaecati repudiandae consectetur sit quis? Modi suscipit
+                perferendis nesciunt?
+              </p>
+            </div>
+          </div>
+          <div class="wedo">
+            <div class="wedo__item">
+              <img class="wedo__img" src="wedo.jpg" alt="" />
+            </div>
+            <div class="wedo__item">
+              <div class="accordion">
+                <div class="accordion__item" data-collapse="#wedo1">
+                  <div class="accordion__header">
+                    <img src="photography.png" alt="" class="accordion__icon" />
+                    <div class="accordion__title">Photography</div>
+                  </div>
+                  <div class="accordion__content" id="wedo1">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      In saepe modi dolores facere rerum quo ab quas eum,
+                      facilis voluptas reprehenderit aperiam explicabo dolore et
+                      aspernatur odit minima nulla quaerat voluptates harum
+                      pariatur. Nam porro fuga earum officia itaque soluta
+                      veniam expedita neque explicabo ea.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion__item active" data-collapse="#wedo2">
+                  <div class="accordion__header">
+                    <img src="creativity.png" alt="" class="accordion__icon" />
+                    <div class="accordion__title">creativity</div>
+                  </div>
+                  <div class="accordion__content" id="wedo2">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      In saepe modi dolores facere rerum quo ab quas eum,
+                      facilis voluptas reprehenderit aperiam explicabo dolore et
+                      aspernatur odit minima nulla quaerat voluptates harum
+                      pariatur. Nam porro fuga earum officia itaque soluta
+                      veniam expedita neque explicabo ea.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion__item" data-collapse="#wedo3">
+                  <div class="accordion__header">
+                    <img src="webdesign.png" alt="" class="accordion__icon" />
+                    <div class="accordion__title">web design</div>
+                  </div>
+                  <div class="accordion__content" id="wedo3">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      In saepe modi dolores facere rerum quo ab quas eum,
+                      facilis voluptas reprehenderit aperiam explicabo dolore et
+                      aspernatur odit minima nulla quaerat voluptates harum
+                      pariatur. Nam porro fuga earum officia itaque soluta
+                      veniam expedita neque explicabo ea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section section--gray">
+        <div class="container">
+          <div class="reviews">
+            <!-- <a class="reviews__btn reviews__btn--prev" href="#">Prev</a>
+            <a class="reviews__btn reviews__btn--next" href="#">Next</a> -->
+            <div data-slider>
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="avatar.png"
+                    width="145"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatum nobis vel culpa qui, commodi quaerat. Ipsa
+                    distinctio unde officia labore!
+                  </div>
+                  <div class="reviews__author">John Doe</div>
+                </div>
+              </div>
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="avatar.png"
+                    width="145"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatum nobis vel culpa qui, commodi quaerat. Ipsa
+                    distinctio unde officia labore!
+                  </div>
+                  <div class="reviews__author">John Doe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">Who we are</h3>
+            <h2 class="section__title">Meet our team</h2>
+            <div>
+              <p class="section__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur repellendus eum soluta quam veritatis nisi fugit
+                voluptatibus, vitae inventore veniam tenetur aspernatur adipisci
+                provident nulla similique mollitia eligendi autem iste vel
+                obcaecati repudiandae consectetur sit quis? Modi suscipit
+                perferendis nesciunt?
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="team1.jpg" alt="" />
+                </div>
+                <div class="card__text">
+                  <div class="social">
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-pinterest-alt"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card__info">
+                <div class="card__name">Mattew Dix</div>
+                <div class="card__prof">Graphic Design</div>
+              </div>
+            </div>
+
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="team2.jpg" alt="" />
+                </div>
+                <div class="card__text">
+                  <div class="social">
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-pinterest-alt"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card__info">
+                <div class="card__name">christopher campbell</div>
+                <div class="card__prof">Branding/UX design</div>
+              </div>
+            </div>
+            <div class="card__item">
+              <div class="card__inner">
+                <div class="card__img">
+                  <img src="team3.jpg" alt="" />
+                </div>
+                <div class="card__text">
+                  <div class="social">
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-facebook"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-twitter"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-pinterest-alt"></i>
+                    </a>
+
+                    <a href="#" class="social__item">
+                      <i class="bx bxl-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card__info">
+                <div class="card__name">Michael Fertig</div>
+                <div class="card__prof">Developer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section section--gray">
+        <div class="container">
+          <div class="logos">
+            <div class="logos__item">
+              <img src="logo1.png" alt="" class="logos__img" />
+            </div>
+            <div class="logos__item">
+              <img src="logo2.png" alt="" class="logos__img" />
+            </div>
+            <div class="logos__item">
+              <img src="logo3.png" alt="" class="logos__img" />
+            </div>
+            <div class="logos__item">
+              <img src="logo4.png" alt="" class="logos__img" />
+            </div>
+            <div class="logos__item">
+              <img src="logo5.png" alt="" class="logos__img" />
+            </div>
+            <div class="logos__item">
+              <img src="logo6.png" alt="" class="logos__img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="blog">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">What we do</h3>
+            <h2 class="section__title">Some of our work</h2>
+            <div>
+              <p class="section__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur repellendus eum soluta quam veritatis nisi fugit
+                voluptatibus, vitae inventore veniam tenetur aspernatur adipisci
+                provident nulla similique mollitia eligendi autem iste vel
+                obcaecati repudiandae consectetur sit quis? Modi suscipit
+                perferendis nesciunt?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="works">
+          <div class="works__col">
+            <div class="works__item">
+              <img src="1.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+
+            <div class="works__item">
+              <img src="2.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__col">
+            <div class="works__item">
+              <img src="3.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+
+            <div class="works__item">
+              <img src="4.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="works__col">
+            <div class="works__item">
+              <img src="5.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+          </div>
+          <div class="works__col">
+            <div class="works__item">
+              <img src="6.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+
+            <div class="works__item">
+              <img src="7.jpg" alt="" class="works__img" />
+              <div class="works__info">
+                <div class="works__title">creatively designed</div>
+                <div class="works__text">Lorem ipsum dolor sit.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section">
+        <div class="container">
+          <div class="reviews">
+            <div data-slider>
+              <!-- <a class="reviews__btn reviews__btn--prev" href="#">Prev</a>
+            <a class="reviews__btn reviews__btn--next" href="#">Next</a> -->
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="avatar.png"
+                    width="145"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatum nobis vel culpa qui, commodi quaerat. Ipsa
+                    distinctio unde officia labore!
+                  </div>
+                  <div class="reviews__author">John Doe</div>
+                </div>
+              </div>
+
+              <div>
+                <div class="reviews__item">
+                  <img
+                    class="reviews__photo"
+                    src="avatar.png"
+                    width="145"
+                    alt=""
+                  />
+                  <div class="reviews__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Voluptatum nobis vel culpa qui, commodi quaerat. Ipsa
+                    distinctio unde officia labore!
+                  </div>
+                  <div class="reviews__author">John Doe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section section--clients">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">Happy Clients</h3>
+            <h2 class="section__title">what people say</h2>
+          </div>
+
+          <div class="clients">
+            <div class="clients__item">
+              <img src="cli1.png" alt="" class="clients__photo" />
+              <div class="clients__content">
+                <div class="clients__name">Matthew Dix</div>
+                <div class="clients__prof">Graphic Design</div>
+
+                <div class="clients__text">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aspernatur quos illum consequatur nam explicabo maiores ea
+                    sit aperiam libero! Enim, recusandae culpa! Consequatur?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="clients__item">
+              <img src="cli2.png" alt="" class="clients__photo" />
+              <div class="clients__content">
+                <div class="clients__name">Matthew Dix</div>
+                <div class="clients__prof">Graphic Design</div>
+
+                <div class="clients__text">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aspernatur quos illum consequatur nam explicabo maiores ea
+                    sit aperiam libero! Enim, recusandae culpa! Consequatur?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="clients__item">
+              <img src="cli3.png" alt="" class="clients__photo" />
+              <div class="clients__content">
+                <div class="clients__name">Matthew Dix</div>
+                <div class="clients__prof">Graphic Design</div>
+
+                <div class="clients__text">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aspernatur quos illum consequatur nam explicabo maiores ea
+                    sit aperiam libero! Enim, recusandae culpa! Consequatur?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="clients__item">
+              <img src="cli4.png" alt="" class="clients__photo" />
+              <div class="clients__content">
+                <div class="clients__name">Matthew Dix</div>
+                <div class="clients__prof">Graphic Design</div>
+
+                <div class="clients__text">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aspernatur quos illum consequatur nam explicabo maiores ea
+                    sit aperiam libero! Enim, recusandae culpa! Consequatur?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h3 class="section__suptitle">Our stories</h3>
+            <h2 class="section__title">latest blog</h2>
+          </div>
+
+          <div class="blog" id="work">
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="#"
+                  ><img src="blog1.jpg" alt="" class="blog__photo"
+                /></a>
+                <div class="blog__date">
+                  <div class="blog__date-num">15</div>
+                  Jan
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="#">Lorem ipsum dolor sit.</a>
+                </div>
+                <div class="blog__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                  corrupti.
+                </div>
+              </div>
+              <div class="blog__footer">
+                <div class="blog__stat">
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-user"></i> 545</span
+                  >
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-chat"></i> 55</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="#"
+                  ><img src="blog2.jpg" alt="" class="blog__photo"
+                /></a>
+                <div class="blog__date">
+                  <div class="blog__date-num">15</div>
+                  Jan
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="#">Lorem ipsum dolor sit.</a>
+                </div>
+                <div class="blog__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                  corrupti.
+                </div>
+              </div>
+              <div class="blog__footer">
+                <div class="blog__stat">
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-user"></i> 545</span
+                  >
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-chat"></i> 55</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__item">
+              <div class="blog__header">
+                <a href="#"
+                  ><img src="blog3.jpg" alt="" class="blog__photo"
+                /></a>
+                <div class="blog__date">
+                  <div class="blog__date-num">15</div>
+                  Jan
+                </div>
+              </div>
+              <div class="blog__content">
+                <div class="blog__title">
+                  <a href="#">Lorem ipsum dolor sit.</a>
+                </div>
+                <div class="blog__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                  corrupti.
+                </div>
+              </div>
+              <div class="blog__footer">
+                <div class="blog__stat">
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-user"></i> 545</span
+                  >
+                  <span class="blog__stat--item">
+                    <i class="bx bxs-chat"></i> 55</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--map">
+        <div class="container">
+          <div class="map">
+            <h2 class="map__title">
+              <div><i class="bx bxs-map"></i></div>
+              <a href="#">Open Map</a>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col footer__col--first">
+            <div class="footer__logo">MoGo</div>
+            <div class="footer__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
+              ullam totam aperiam ab ipsa. Exercitationem, porro fuga. Laborum
+              voluptatem magni laboriosam odio delectus explicabo consectetur
+              officia labore facilis excepturi!
+            </div>
+            <div class="footer__social">
+              <div class="footer__social-header"><b> 15k </b> followers</div>
+              <div class="footer__social-content">
+                Follow us:
+                <a href="#"><i class="bx bxl-facebook-square"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+                <a href="#"><i class="bx bxl-google-plus"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+                <a href="#"><i class="bx bxl-behance"></i></a>
+                <a href="#"><i class="bx bxl-telegram"></i></a>
+              </div>
+            </div>
+            <form class="subscribe" action="/" method="post">
+              <input
+                class="subscribe__input"
+                type="email"
+                name="name"
+                placeholder="Your Email..."
+              />
+              <button class="subscribe__btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <div class="footer__col footer__col-second">
+            <div class="footer__title">Blogs</div>
+            <div class="blogs">
+              <div class="blogs__item">
+                <img class="blogs__img" src="blog1.jpg" alt="" />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#"
+                    >Lorem ipsum dolor sit adipisicing elit. Repellendus.</a
+                  >
+                  <div class="blogs__data">Jan 9, 2012</div>
+                </div>
+              </div>
+
+              <div class="blogs__item">
+                <img class="blogs__img" src="blog2.jpg" alt="" />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#">Lorem ipsum dolor.</a>
+                  <div class="blogs__data">Jan 9, 2012</div>
+                </div>
+              </div>
+              <div class="blogs__item">
+                <img class="blogs__img" src="blog3.jpg" alt="" />
+                <div class="blogs__content">
+                  <a class="blogs__title" href="#"
+                    >Lorem ipsum dolor sit adipisicing elit. Repellendus.</a
+                  >
+                  <div class="blogs__data">Jan 9, 2012</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__col footer__col-third">
+            <div class="footer__title">Instagram</div>
+            <div class="instagram">
+              <a class="instagram__item" href="#">
+                <img src="inst1.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst2.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst3.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst4.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst5.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst6.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst7.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst8.jpg" alt="" />
+              </a>
+              <a class="instagram__item" href="#">
+                <img src="inst9.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          2016 MoGo free PSD template by <span>Laaqiq</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
